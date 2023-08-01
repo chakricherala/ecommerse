@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Contact Us</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <style>
+            *{
+                font-family: 'Dream Avenue';
+            }
+            h1{
+                display: block;
+                text-align: center;
+            }
+            body{
+                background-image: linear-gradient(to left, #e4e4e4,white);
+            }
+            header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            background-color: #e4e2dd;
+            }
+
+            .logo img {
+            max-width: 100px;
+            height: auto;
+            }
+
+            .search-box {
+            display: flex;
+            align-items: center;
+            background-color: #fff;
+            border-radius: 12px;
+            border: 1px solid #292929;
+            padding: 5px;
+            margin: 5px;
+            }
+
+            .search-box input[type="text"] {
+            border: none;
+            padding: 5px;
+            }
+
+            .search-button {
+            border: none;
+            background-color: #e4e2dd;
+            color: #333;
+            font-size: 18px;
+            padding: 10px 20px;
+            border-radius: 12px;
+            cursor: pointer;
+            margin-left: 10px;
+            }
+
+            .login-button {
+            border: 1px solid #292929;
+            background-color: #e4e2dd;
+            color: #292929;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            }
+
+            .cart-button {
+            font-size: 24px;
+            color: #292929;
+            text-decoration: none;
+            margin-left: 20px;
+            }
+            .centered {
+             position: absolute;
+             top: 50%;
+             left: 50%;
+             transform: translate(-50%, -50%);
+            }
+            * {
+              font-family: 'Dream Avenue';
+            }
+            footer{
+              background-color: #e4e2dd;
+            }
+            a{
+              text-decoration: none;
+              color: #292929;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="header-part1">
+                <a href="Homepage.html" class="logo">
+                   <img src="logo2.png" alt="Logo">
+                </a>
+            </div>    
+            <div class="search-box">
+                <input type="text" placeholder="Search...">
+                <button class="search-button"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="header-part2">
+                <button class="login-button"><a href="login.html">Login</a></button>
+                <a href="cart.html" class="cart-button"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-centered pb-1 pt-1">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="Homepage.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">All Products</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="womenDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Women
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="womenDropdown">
+                        <li><a class="dropdown-item" href="#">All Products</a></li>
+                        <li><a class="dropdown-item" href="#">Dresses</a></li>
+                        <li><a class="dropdown-item" href="#">Pants</a></li>
+                        <li><a class="dropdown-item" href="#">Skirts</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="menDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Men
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="menDropdown">
+                        <li><a class="dropdown-item" href="#">All Products</a></li>
+                        <li><a class="dropdown-item" href="#">Shirts</a></li>
+                        <li><a class="dropdown-item" href="#">Pants</a></li>
+                        <li><a class="dropdown-item" href="#">Hoodies</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Kids</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+          </nav>
+        <h1> Contact Us</h1>
+        <br>
+        <div class="container">
+            <div class="row">
+              <!-- Image Column -->
+              <div class="col-md-6">
+                <img src="shopnow.jpg" alt="Business Image" class="img-fluid">
+              </div>
+              <!-- Form Column -->
+              <div class="col-md-6">
+                <form>
+                  <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name" required>
+                  </div>
+                  <br>
+                  <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email" required>
+                  </div>
+                  <br>
+                  <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" class="form-control" placeholder="Enter your message" required></textarea>
+                  </div>
+                  <br>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <br>
+          <footer class="footer">
+            <div class="container">
+              <div class="row">
+                <!-- Women Column -->
+                <div class="col-md-3 text-center">
+                  <h5>Women</h5>
+                  <ul>
+                    <a href="" class="footer-inner-text">All Products</a>
+                    <br>
+                    <a href="" class="footer-inner-text">Dresses</a>
+                    <br>
+                    <a href="" class="footer-inner-text">Sarees</a>
+                    <br>
+                    <a href="" class="footer-inner-text">Jeans</a>
+                  </ul>
+                </div>
+                <!-- Men Column -->
+                <div class="col-md-3 text-center">
+                  <h5>Men</h5>
+                  <ul>
+                    <a href="" class="footer-inner-text">All Products</a>
+                    <br>
+                    <a href="" class="footer-inner-text">Shirts</a>
+                    <br>
+                    <a href=""class="footer-inner-text">T-shirts</a>
+                    <br>
+                    <a href="" class="footer-inner-text">Jeans</a>
+                  </ul>
+                </div>
+                <!-- Kids Column -->
+                <div class="col-md-3 text-center">
+                  <h5>Kids</h5>
+                  <ul>
+                    <a href="" class="footer-inner-text">All Products</a>
+                    <!-- Add more sub-categories if needed -->
+                  </ul>
+                </div>
+                <!-- Links Column -->
+                <div class="col-md-3 text-center">
+                  <h5>Links</h5>
+                  <ul>
+                    <a href="Homepage.html" class="footer-inner-text">Home</a>
+                    <br>
+                    <a href="contact.html" class="footer-inner-text">Contact</a>
+                    <br>
+                    <a href="login.html" class="footer-inner-text">Login</a>
+                  </ul>
+                </div>
+              </div>
+              <!-- Divider -->
+              <hr>
+              <!-- Copyright -->
+              <p class="text-center">&copy; 2023 Vanilla. All rights reserved.</p>
+            </div>
+          </footer>
+          
+    </body>
+</html>
