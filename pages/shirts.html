@@ -11,28 +11,19 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
-    <style>
-        body {
-            background-image: linear-gradient(to top, #e4e4e4, beige);
-        }
+        <link rel="stylesheet" href="../style/style.css">
 
-        h2 {
-            display: block;
-            border-radius: 5px;
-            border: 1px solid beige;
-            margin: 10px;
-            text-align: center;
-        }
-    </style>
 </head>
 
 <body>
+    <header id="header"> </header>
+
     <h2> Shirts</h2>
     <div class="container">
         <div class="row">
             <div class="col-md-3">
                 <div class="card">
-                    <img src="shirt1.jpg" class="card-img-top" alt="shirt1">
+                    <img src="../images/shirt1.jpg" class="card-img-top" alt="shirt1">
                     <div class="card-body">
                         <h4>Product</h4>
                         <h6>$20</h6>
@@ -45,7 +36,7 @@
             </div>
             <div class="col-md-3">
                 <div class="card">
-                    <img src="shirt2.jpg" class="card-img-top" alt="shirt2">
+                    <img src="../images/shirt2.jpg" class="card-img-top" alt="shirt2">
                     <div class="card-body">
                         <h4>Product</h4>
                         <h6>$20</h6>
@@ -58,7 +49,7 @@
             </div>
             <div class="col-md-3">
                 <div class="card">
-                    <img src="shirt3.jpg" class="card-img-top" alt="shirt3">
+                    <img src="../images/shirt3.jpg" class="card-img-top" alt="shirt3">
                     <div class="card-body">
                         <h4>Product</h4>
                         <h6>$20</h6>
@@ -71,7 +62,7 @@
             </div>
             <div class="col-md-3">
                 <div class="card">
-                    <img src="shirt4.jpg" class="card-img-top" alt="shirt4">
+                    <img src="../images/shirt4.jpg" class="card-img-top" alt="shirt4">
                     <div class="card-body">
                         <h4>Product</h4>
                         <h6>$20</h6>
@@ -84,6 +75,15 @@
             </div>
         </div>
     </div>
+    <footer id="footer"> </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+         $(function(){
+            $("#header").load('header.html');
+            $("#footer").load('footer.html');
+         });
+    </script>
 </body>
 
 </html>
